@@ -35,7 +35,7 @@ SNS → Email Alert
 
 ---
 
-## ⚙️ Implementation Steps (With Screenshots)
+## Implementation Steps (With Screenshots)
 
 ### 1. Enable EventBridge
 
@@ -157,7 +157,7 @@ SNS → Email Alert
 
 ---
 
-## ✅ Results
+## Results
 
 - EC2 instance automatically isolated  
 - Security group replaced with containment group  
