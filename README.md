@@ -39,121 +39,121 @@ SNS → Email Alert
 
 ### 1. Enable EventBridge
 
-![EventBridge](./screenshots/01-eventbridge.png)
+![EventBridge](screenshots/Image1.png)
 
 ---
 
 ### 2. Enable GuardDuty
 
-![GuardDuty](./screenshots/02-guardduty.png)
+![GuardDuty](screenshots/Image2.png)
 
 ---
 
 ### 3. Launch EC2 Instance
 
-![EC2 Launch](./screenshots/03-ec2-launch.png)
+![EC2 Launch](screenshots/Image3.png)
 
 ---
 
 ### 4. Verify EC2 Running
 
-![EC2 Running](./screenshots/04-ec2-running.png)
+![EC2 Running](screenshots/Image4.png)
 
 ---
 
 ### 5. Create Containment Security Group
 
-![Security Group](./screenshots/05-security-group.png)
+![Security Group](screenshots/Image5.png)
 
 ---
 
 ### 6. Create Lambda Execution Role
 
-![Lambda Role](./screenshots/06-lambda-role.png)
+![Lambda Role](screenshots/Image6.png)
 
 ---
 
 ### 7. Create EventBridge Trust Policy
 
-![EventBridge Trust](./screenshots/07-eventbridge-trust.png)
+![EventBridge Trust](screenshots/Image7.png)
 
 ---
 
 ### 8. Create EventBridge Role
 
-![EventBridge Role](./screenshots/08-eventbridge-role.png)
+![EventBridge Role](screenshots/Image8.png)
 
 ---
 
 ### 9. Attach Permissions
 
-![Permissions](./screenshots/09-role-permissions.png)
+![Permissions](screenshots/Image9.png)
 
 ---
 
 ### 10. Create SNS Subscription
 
-![SNS Subscription](./screenshots/10-sns-subscription.png)
+![SNS Subscription](screenshots/Image10.png)
 
 ---
 
 ### 11. Confirm SNS Email
 
-![SNS Confirmation](./screenshots/11-sns-confirmation.png)
+![SNS Confirmation](screenshots/Image11.png)
 
 ---
 
 ### 12. SNS Subscription Active
 
-![SNS Confirmed](./screenshots/12-sns-confirmed.png)
+![SNS Confirmed](screenshots/Image12.png)
 
 ---
 
 ### 13. Create Lambda Function
 
-![Lambda Role Select](./screenshots/13-lambda-role-select.png)
+![Lambda Role Select](screenshots/Image13.png)
 
 ---
 
 ### 14. Add Lambda Code
 
-![Lambda Code](./screenshots/14-lambda-code.png)
+![Lambda Code](screenshots/Image14.png)
 
 ---
 
 ### 15. Configure Instance + Security Group IDs
 
-![Lambda Config](./screenshots/15-lambda-config.png)
+![Lambda Config](screenshots/Image15.png)
 
 ---
 
 ### 16. Create EventBridge Rule (JSON Pattern)
 
-![Event Pattern](./screenshots/16-event-pattern.png)
+![Event Pattern](screenshots/Image16.png)
 
 ---
 
 ### 17. Add Lambda Target
 
-![Target Lambda](./screenshots/17-target-lambda.png)
+![Target Lambda](screenshots/Image17.png)
 
 ---
 
 ### 18. Add SNS Target
 
-![Target SNS](./screenshots/18-target-sns.png)
+![Target SNS](screenshots/Image18.png)
 
 ---
 
 ### 19. Generate GuardDuty Findings
 
-![Findings](./screenshots/19-findings.png)
+![Findings](screenshots/Image19.png)
 
 ---
 
 ### 20. Verify Containment
 
-![Containment Result](./screenshots/20-containment-result.png)
+![Containment Result](screenshots/Image20.png)
 
 ---
 
@@ -175,7 +175,7 @@ SNS → Email Alert
 
 ---
 
-## 📚 Lessons Learned
+## Lessons Learned
 
 - IAM permissions are critical for automation to work  
 - EventBridge rules must match exact event patterns  
